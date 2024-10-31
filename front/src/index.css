@@ -21,6 +21,53 @@ body {
   transition: background-color var(--transition-speed);
 }
 
+
+/* Estilos generales de la sección de inicio */
+.inicio-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  background-color: #f8f8f8; /* Fondo claro */
+}
+
+.inicio-section main {
+  max-width: 600px;
+}
+
+.inicio-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff6b6b; /* Color similar al de la marca */
+}
+
+.inicio-section .brand-name {
+  color: #ff6b6b;
+}
+
+.inicio-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff5252;
+}
+
 /* Header y navegación */
 header {
   background-color: #fff;
